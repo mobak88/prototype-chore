@@ -21,14 +21,21 @@
       <div class="wrapper-app">
         <div class="login-text-wrapper">
           <h1 class="intro-text login-text">Logg inn</h1>
-          <form class="login-form" action="submit">
+          <form id="login-form" class="login-form" action="submit">
             <select name="rolle" id="rolle">
               <option selected disabled>Velg rolle</option>
               <option id="forelder" value="Forelder">Forelder</option>
               <option id="barn" value="Barn">Barn</option>
             </select>
-            <button class="user-btn login-btn">Logg inn</button>
           </form>
+          <button
+            type="submit"
+            form="login-form"
+            class="user-btn login-btn"
+            value="Submit"
+          >
+            Logg inn
+          </button>
         </div>
       </div>
     </div>

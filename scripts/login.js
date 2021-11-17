@@ -1,5 +1,8 @@
-const loginForm = document.getElementsByClassName('login-form');
+'use strict';
+
+const loginForm = document.querySelector('.login-form');
 const loginSelect = document.getElementById('rolle');
+const loginBtn = document.querySelector('.login-btn');
 
 const chooseRole = () => {
     if ((loginSelect.selectedIndex === '0')) {
@@ -10,13 +13,7 @@ const chooseRole = () => {
     }
 };
 
-const h1 = document.getElementsByClassName('login-text');
-
-h1.addEventListener('click', (e) => {
-    console.log('test');
-});
-
-loginForm.addEventListener("submit", (e) => {
+loginBtn.addEventListener("submit", (e) => {
     e.preventDefault();
     chooseRole();
 });
