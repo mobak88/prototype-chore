@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mustafa Baker" />
+    <meta name="description" content="Prototype parent login" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styling/index.css" />
+    <link rel="stylesheet" href="/styling/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/scripts/login.js"></script>
+    <title>Prototype aktør forelder - Logg inn</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper-app">
+        <div class="login-text-wrapper">
+          <h1 class="intro-text login-text">Logg inn</h1>
+          <form class="login-form" action="submit">
+            <select name="rolle" id="rolle">
+              <option selected disabled>Velg rolle</option>
+              <option id="forelder" value="Forelder">Forelder</option>
+              <option id="barn" value="Barn">Barn</option>
+            </select>
+            <button class="user-btn login-btn">Logg inn</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
