@@ -1,0 +1,23 @@
+.main {
+  height: 430px;
+  background-image: linear-gradient(to top, #004055 0%, #475fb6 100%);
+  border-radius: 0 0 22px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.overview-box {
+  background-color: #ff004f;
+  width: 250px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
