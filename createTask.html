@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mustafa Baker" />
+    <meta name="description" content="Prototype parent create task" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styling/index.css" />
+    <link rel="stylesheet" href="/styling/createTask.css" />
+    <link rel="stylesheet" href="/styling/menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/scripts/overview.js" defer></script>
+    <title>Prototype aktør forelder - Legg til oppgave</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper-app">
+        <header>
+          <div class="header">
+            <div class="menu-btn">
+              <div class="menu-btn__burger"></div>
+              <ul class="menu menu-display">
+                <li><a href="/overview.html">Forsiden</a></li>
+                <li><a href="/addChild.html">Legg til barn</a></li>
+                <li>
+                  <a class="menu-active" href="/createTask.html">Lag oppgave</a>
+                </li>
+                <li><a href="/tasks.html">Liste oppgaver</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="create-task__main">
+            <h1 class="create-task__text">Lag oppgave</h1>
+            <form class="create-task__form" action="submit">
+              <label class="create-task__label" for="task-sum">Sum</label>
+              <input
+                class="create-task__input"
+                type="number"
+                id="task-sum"
+                placeholder="Velg sum"
+              />
+              <div class="create-task__date">
+                <label class="create-task__label" for="create-task__date"
+                  >Velg frist</label
+                >
+                <input
+                  class="create-task__input"
+                  type="date"
+                  id="create-task__date"
+                />
+              </div>
+              <div class="create-task__camera">
+                <p class="create-task__label">Ta bilde av oppgave</p>
+                <img
+                  src="/assets/camera.png"
+                  alt="camera icon for taking picture of task"
+                  class="create-task__icon"
+                />
+              </div>
+            </form>
+            <button class="user-btn" type="button">Legg til</button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

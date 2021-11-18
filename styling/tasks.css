@@ -1,0 +1,25 @@
+.task-finished {
+  background-color: #129e00;
+  width: 250px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.task-unfinished {
+  background-color: #ff004f;
+  width: 250px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}

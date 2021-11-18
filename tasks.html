@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Mustafa Baker" />
-    <meta name="description" content="Prototype parent Hovedside innlogget" />
+    <meta name="description" content="Prototype parent Tasks" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styling/index.css" />
     <link rel="stylesheet" href="/styling/overview.css" />
+    <link rel="stylesheet" href="/styling/tasks.css" />
     <link rel="stylesheet" href="/styling/menu.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +16,7 @@
       rel="stylesheet"
     />
     <script src="/scripts/overview.js" defer></script>
-    <title>Prototype aktør forelder - Innloget hovedside</title>
+    <title>Prototype aktør forelder - Liste over oppgaver</title>
   </head>
   <body>
     <div class="container">
@@ -25,27 +26,21 @@
             <div class="menu-btn">
               <div class="menu-btn__burger"></div>
               <ul class="menu menu-display">
-                <li>
-                  <a class="menu-active" href="/overview.html">Forsiden</a>
-                </li>
+                <li><a href="/overview.html">Forsiden</a></li>
                 <li><a href="/addChild.html">Legg til barn</a></li>
                 <li><a href="/createTask.html">Lag oppgave</a></li>
-                <li><a href="/tasks.html">Liste oppgaver</a></li>
+                <li>
+                  <a class="menu-active" href="/tasks.html">Liste oppgaver</a>
+                </li>
               </ul>
             </div>
           </div>
         </header>
         <main>
           <div class="main">
-            <button class="overview-box">
-              <a href="/addChild.html">Legg til barn</a>
-            </button>
-            <button class="overview-box">
-              <a href="/createTask.html">Lag oppgave</a>
-            </button>
-            <button class="overview-box">
-              <a href="/tasks.html">Oppgaver oversikt</a>
-            </button>
+            <button class="task-unfinished">Rydde rommet</button>
+            <button class="task-finished">Gjøre lekser</button>
+            <button class="task-finished">Sett inn i oppvaskmaskin</button>
           </div>
         </main>
       </div>

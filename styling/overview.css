@@ -21,3 +21,8 @@
   border: none;
   cursor: pointer;
 }
+
+.overview-box a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -28,3 +28,7 @@
   font-size: 16px;
   outline: none;
 }
+
+.role-error {
+  border: 2px solid #ff004f;
+}

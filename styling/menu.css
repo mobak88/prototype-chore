@@ -84,7 +84,7 @@
   color: #fff;
   text-decoration: none;
   font-size: 22px;
-  padding: 30px 10px;
+  padding: 40px 10px;
   width: 340px;
   text-align: center;
   border-bottom: 1px solid #fff;
@@ -96,4 +96,8 @@
 
 .menu li {
   list-style: none;
+}
+
+.menu-active {
+  background-color: rgb(0, 0, 0);
 }
